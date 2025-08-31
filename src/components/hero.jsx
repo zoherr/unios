@@ -52,7 +52,6 @@ const Hero = () => {
 
     })
 
-    // Auto-advance slides every 5 seconds
     useEffect(() => {
         const interval = setInterval(() => {
             setIsTransitioning(true);
@@ -73,7 +72,6 @@ const Hero = () => {
             </h1>
             <div className="relative  flex -mt-32">
 
-                {/* Left: Video */}
                 <div className="w-1/2 relative overflow-hidden">
                     <video
                         key={currentItem.video}
@@ -88,7 +86,6 @@ const Hero = () => {
                     <div className="absolute inset-0 bg-black/20"></div>
                 </div>
 
-                {/* Right: Image + Text */}
                 <div className={`w-1/2 pb-28 pt-10 relative overflow-hidden transition-all duration-1000 ${isTransitioning ? 'opacity-50' : 'opacity-100'}`}>
 
                     <div className={`absolute inset-0 bg-gradient-to-br ${currentItem.color} transition-all duration-1000`}></div>

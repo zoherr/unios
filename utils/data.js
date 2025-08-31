@@ -36,6 +36,32 @@ export const productShowCaseImgData = [
 ]
 
 export const productTimelineData = {
-    bgImage : "../src/assets/product-timeline/1.jpg",
-    pImage : "../src/assets/product-timeline/product.webp"
+    bgImage: "../src/assets/product-timeline/1.jpg",
+    pImage: "../src/assets/product-timeline/product.webp",
+    textData: [
+        "Progressively specify technical specifications.",
+        "Product finishes.",
+        "Save as a favourite or add to a Toolbox project.",
+        "Conveniently access product resources, 3D assets and more.",
+        "Start configuring now."
+    ]
 }
+
+
+export const communityData = [
+    {
+        title: "Join Toolbox",
+        desc: "Unlock your lighting superpower with a platform that allows seamless lighting selection, configuration and scheduling experience.",
+        image: "../src/assets/community/JoinToolbox.webp"
+    },
+    {
+        title: "Join Toolbox",
+        desc: "Unlock your lighting superpower with a platform that allows seamless lighting selection, configuration and scheduling experience.",
+        image: "../src/assets/community/JoinToolbox.webp"
+    },
+    {
+        title: "Join Toolbox",
+        desc: "Unlock your lighting superpower with a platform that allows seamless lighting selection, configuration and scheduling experience.",
+        image: "../src/assets/community/JoinToolbox.webp"
+    }
+]

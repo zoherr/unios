@@ -25,7 +25,7 @@ const Navbar = () => {
     return (
         <div className={`absolute top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-black/80 backdrop-blur-md' : 'bg-transparent'
             }`}>
-            
+
             <div className="mt-2" ref={nevref}>
                 <div className="p-1 px-4 flex w-full justify-between items-center text-white/80 text-sm">
                     <div>

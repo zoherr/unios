@@ -6,6 +6,9 @@ import Navabr from './components/navbar'
 import Hero from './components/hero'
 import ProductShowCase from './components/productShowCase'
 import ProductTimeLine from './components/productTimeLine'
+import FeaturesPage from './components/feature'
+import CommunityPage from './components/community'
+import Footer from './components/footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +19,10 @@ function App() {
       <Hero />
       <ProductShowCase />
       <ProductTimeLine />
+      <FeaturesPage />
+      <CommunityPage />
+      <Footer />
+      
     </>
   )
 }
