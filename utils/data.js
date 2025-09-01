@@ -65,3 +65,30 @@ export const communityData = [
         image: "../src/assets/community/JoinToolbox.webp"
     }
 ]
+
+export const productData = [
+    {
+        name: "Max freestanding light",
+        img: "../src/assets/product/IONR01033.webp"
+    },
+    {
+        name: "ION R Downlight",
+        img: "../src/assets/product/IONRA103.webp"
+    },
+    {
+        name: "ION R adjustable downlight",
+        img: "../src/assets/product/IONRF089.webp"
+    },
+    {
+        name: "ION R Focus downlight",
+        img: "../src/assets/product/MAXF1100.webp"
+    },
+    {
+        name: "Titanium G2 Downlight",
+        img: "../src/assets/product/TISM0215.webp"
+    },
+    {
+        name: "Titanium Starlight",
+        img: "../src/assets/product/TITA0100.webp"
+    }
+]

@@ -1,13 +1,12 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
-import Navabr from './components/navbar'
-import Hero from './components/hero'
-import ProductShowCase from './components/productShowCase'
-import ProductTimeLine from './components/productTimeLine'
-import FeaturesPage from './components/feature'
-import CommunityPage from './components/community'
+
+import HomePage from './pages/homePage'
+import ProductDetails from './pages/product-details'
+import Product from './pages/product'
+import { Route, Routes } from 'react-router-dom'
+import Navbar from './components/navbar'
 import Footer from './components/footer'
 
 function App() {
@@ -15,14 +14,13 @@ function App() {
 
   return (
     <>
-      <Navabr />
-      <Hero />
-      <ProductShowCase />
-      <ProductTimeLine />
-      <FeaturesPage />
-      <CommunityPage />
+      <Navbar />
+      <Routes>
+        <Route path="/" index element={<HomePage />} />
+        <Route path="/product" element={<Product />} />
+        <Route path="/product-details" element={<ProductDetails />} />
+      </Routes>
       <Footer />
-      
     </>
   )
 }
